@@ -1,0 +1,95 @@
+body {
+  font-size: 16px;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+section,
+div,
+a,
+p,
+h1,
+text,
+ul {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 30px;
+}
+
+.nav {
+  color: #ffffff;
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.nav li:hover {
+  color: #ffc700;
+  transition: 0.5s;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.main-banner {
+  background-image: url("../images/main-banner-back.jpg");
+  height: 100vh;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.p1 {
+  font-weight: 700;
+  font-size: 72px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.p2 {
+  color: #ffc700;
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
+.p3 {
+  font-weight: 900;
+  font-size: 96px;
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff;
+  text-transform: uppercase;
+}
+
+/* .socials {
+} */
